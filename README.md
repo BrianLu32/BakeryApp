@@ -11,5 +11,7 @@ User inputs specific quantities of each cake and will generate the total cost of
 Notes: 
 
 -Microsoft Access and Excel need to be installed into the machine to use this application.
+
 -The Access file the application it is reading is static. It does not currently support the user to choose a specific file. Will be fixed
+
 -The application currently reads the Access file in .mdb format. Other extentions currently do not work.
