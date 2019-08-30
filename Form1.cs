@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Data;
 using System.Data.OleDb;
@@ -56,6 +56,7 @@ namespace YenHoungBakery
                     sw.Close();
                 }
                 connection.ConnectionString = File.ReadLines(checkConnection).Last();
+                getConnectionString = File.ReadLines(checkConnection).Last();
 
                 //Continues with the program
 
